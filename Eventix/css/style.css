@@ -1,0 +1,86 @@
+header{
+    padding: 30px;
+    text-align: center;
+     background: #4c2882;
+     font-size: xx-large;
+     font-family: "Cinzel";
+     font-weight: 100;
+     font-style: normal;
+     text-transform: uppercase;
+     box-shadow: 2px 2px 2px 4px rgba(0, 0, 0, 0.2);
+     color: white;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+h2{
+    font-family: "Macondo";
+    text-align: center;
+    text-transform: uppercase;
+    font-size: xx-large;
+    color: white;
+    border: solid 5px;
+    border-radius: 25px;
+    border-color: white;
+    padding-top: 12px;
+    padding-bottom: 12px;
+
+}
+
+p{
+    font-family: "Kalam";
+    padding-top: 25px;
+}
+section{
+    padding-top: 130px;
+    padding-left: 480px;
+    padding-right: 480px;
+
+
+}
+article{
+    text-align: center;
+}
+.buttons {
+    min-width: 700px;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .buttons a {
+    text-decoration: none;
+    font-size: 28px;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    background: #4c2882;
+    color: #f1f1f1;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
+    transition: all .4s ease-in-out;
+
+  }
+  
+  .buttons a:hover {
+    transform: scale(1.2);
+  }
+  body{
+    background-color: #cfbdeb;
+  }
+footer{
+    padding-top: 200px;
+    padding-bottom: 75px;
+}
+.inst{
+    padding-left: 400px;
+}
+.you{
+    padding-right: 400px;
+}
+.copy{
+    padding-left: 5px;
+
+}
